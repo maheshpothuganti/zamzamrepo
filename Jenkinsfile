@@ -4,6 +4,6 @@ node {
      git  branch: 'main', url: 'https://github.com/maheshpothuganti/zamzamrepo.git'
   }
   stage("maven build"){
-     sh '${mavenHome}/bin/mvn clean package'
+     sh '${mavenHome}/bin/mvn clean test'
   }
 }
