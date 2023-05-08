@@ -1,2 +1,2 @@
-i like black always
-
+<<<<<<< HEAD
+i like black always OK!!
